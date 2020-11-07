@@ -1,0 +1,212 @@
+div#main-content-body {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+}
+
+div#main-content-body div#main-body {
+    display: block;
+    padding: 0;
+    padding: 55px 40px;
+    overflow: scroll;
+}
+
+div#main-body h1 {
+    width: -webkit-fill-available;
+}
+
+div#main-content-body #main-content {
+    word-break: break-word;
+    word-wrap: break-word!important;
+    white-space: normal;
+    overflow: scroll;
+    margin: 0;
+}
+
+div#main-content-form form #form-control button#content-button {
+    color: #313443;
+    padding: 13px 20px;
+    border: 0;
+    background-color: #e5e5e5;
+    font-size: 25px;
+    border-radius: 0 5px 5px 0;
+}
+
+div#main-content-form form #form-main input[type="text"]#url {
+    padding: 18px 16px;
+    color: #3c4043;
+    width: -webkit-fill-available;
+    border: transparent;
+    will-change: opacity,transform,color;
+    border-radius: 5px 0 0 5px;
+    border-right: 0;
+    background-color: #e5e5e5;
+    display: block;
+}
+
+div#main-content-form form {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+div#loading {
+    display: none;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #F5F6F8;
+    justify-content: center;
+    align-items: center;
+}
+div#loading img {
+    width: 200px;
+}
+div#main-content-form form #form-control button#content-button, div#main-content-form form #form-main input[type="text"]#url{
+    outline: none;
+}
+
+.main_body {
+    width: 1000px;
+    margin: 80px auto;
+}
+
+ul#main-content {
+    list-style: none;
+}
+
+ul#main-content ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+ul#main-content li.website-information.withlogo {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 90px;
+}
+
+ul#main-content li.website-information {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+ul#main-content .page-description .main-description {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.page-description .main-description ol li.author {
+    color: #747a7f;
+}
+
+.page-description .main-description ol li.date {
+    color: #9C27B0;
+}
+
+.page-description .main-description ol li.publisher {
+}
+
+li.website-information .info ol {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.website-information .info ol li.hostname , .website-information .info ol li.publisher {
+    font-size: 24px;
+}
+
+.website-information .info ol li.url {
+    color: blue;
+}
+
+.website-information .main-logo {
+    width: 90px;
+}
+
+.website-information .main-logo img {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+ul#main-content {
+    padding: 0;
+    display: grid;
+    padding: 20px 0;
+    grid-gap: 20px;
+}
+
+#main-content li.image img {
+    max-width: 100%;
+}
+
+li.main_video_audio ol li a {
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #1b7ac4;
+    border-radius: 5px;
+}
+
+li.main_video_audio ol {
+    display: grid;
+    grid-auto-flow: column;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+li.main_video_audio ol li {
+    width: max-content;
+}
+
+li.main_video_audio {
+}
+
+ul#main-content li.iframe {
+}
+
+.website-information .info {
+}
+
+.website-information.withlogo .info {
+    padding: 0 20px;
+}
+
+ul#main-content {
+}
+
+.main-description ol {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.product-information .information ol {
+    display: grid;
+    width: max-content;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+}
+.product-information .information li.currency {
+    color: #673AB7;
+}
+
+.website-information .main-logo li.logo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+div#main-content-results {
+    max-width: 800px;
+    padding-right: 20px;
+}

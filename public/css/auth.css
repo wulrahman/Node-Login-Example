@@ -1,0 +1,148 @@
+body #main-form-body{
+   display: grid;
+   min-height: calc(100vh);
+   justify-content: center;
+   align-items: center;
+}
+body {
+   min-height: calc(100vh);
+   background-color: #F5F6F8;
+   margin:0;
+   font-family: Roboto,Arial,sans-serif;
+}
+div#form-body div#form-error ul li {
+    box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    letter-spacing: .01428571em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    hyphens: auto;
+    word-break: break-word;
+    word-wrap: break-word;
+    color: #5f6368;
+    margin: 0;
+    padding: 0;
+}
+
+div#form-body div#form-error ul {
+    list-style:none;
+    padding: 0;
+    display: grid;
+    margin: 0;
+    grid-auto-flow: row;
+    gap: 10px;
+    padding: 0 10px;
+}
+div#form-body {
+   /* border: 1px solid #dadce0; */
+   width: 400px;
+   display:grid;
+   grid-auto-flow: row;
+   grid-gap: 35px;
+   border-radius: 10px;
+   /* background-color: #ffffff; */
+   height: max-content;
+}
+
+#form-main form #login-form-inputs input[type="text"]#username, #form-main form #login-form-inputs input[type="password"]#password, #form-main form #login-form-inputs input[type="password"]#confirm_password, #form-main form #login-form-inputs input[type="email"]#email  {
+   padding: 16px;
+   color: #3c4043;
+   width: -webkit-fill-available;
+   border: 1px solid#ffffff;
+   will-change: opacity,transform,color;
+   border-radius: 4px;
+   display:block;
+}
+
+#form-main form {
+   display: grid;
+   box-pack: center;
+   grid-gap: 35px;
+}
+
+#form-body {
+ padding: 24px;
+}
+
+#form-main form div#login-form-inputs {
+   display: grid;
+   grid-auto-flow: row;
+   grid-gap: 35px;
+}
+
+#form-main form #form-controls button#submit-button-login, #form-main form #form-controls button#submit-button-register {
+   background-color: #1a73e8;
+   background-color: var(--gm-fillbutton-container-color,#1a73e8);
+   color: #fff;
+   color: var(--gm-fillbutton-ink-color,#fff);
+   padding: 10px 24px;
+   border: 0;
+   border-radius: 4px;
+}
+#form-body h1#form-name {
+ font-family: Roboto,Arial,sans-serif;
+ font-size: 25px;
+ font-weight: 400;
+ hyphens: auto;
+ word-break: break-word;
+ word-wrap: break-word;
+ color: #202124;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+}
+#form-body #form-description {
+ letter-spacing: .00625em;
+ font-family: Roboto,Arial,sans-serif;
+ font-size: 1rem;
+ font-weight: 400;
+ hyphens: auto;
+ word-break: break-word;
+ word-wrap: break-word;
+ color: #5f6368;
+ text-align: center;
+}
+div#form-controls {
+ display: flex;
+ flex-direction: row-reverse;
+}
+#form-main form #login-form-inputs label {
+ hyphens: auto;
+ word-break: break-word;
+ margin: 0 10px;
+ font-family: Roboto,Arial,sans-serif;
+ font-size: .75rem;
+ font-weight: 400;
+ padding: 4px;
+ color: #5f6368;
+ position: fixed;
+ height: max-content;
+ z-index: 2;
+ margin-top: -12px;
+ width: max-content;
+ text-decoration: none;
+}
+#form-main form #login-form-inputs .label-background {
+ hyphens: auto;
+ word-break: break-word;
+ margin: 0 10px;
+ padding: 0 4px;
+ font-family: Roboto,Arial,sans-serif;
+ font-size: .75rem;
+ color:transparent;
+ position: fixed;
+ z-index: 1;
+ width: max-content;
+ background-color: #fff;
+ text-decoration: none;
+ height:2px;
+ background-image: linear-gradient(to right, #fff 0%, #fff 100%);
+}
+
+.repo-description {
+  margin-top: 1rem;
+  color: #ccc;
+}

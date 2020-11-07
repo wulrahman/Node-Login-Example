@@ -1,0 +1,35 @@
+<%- include('header.ejs') %>
+<div id="main-form-body">
+  <div id="form-body">
+    <div>
+      <h1 id="form-name">Sign in</h1>
+      <h2 id="form-description">Use your Localhost Account</h2>
+    </div>
+    <div id="form-main">
+      <form method="post" action="login">
+        <div id="login-form-inputs">
+          <div>
+            <label>Username</label>
+            <div class="label-background">Username</div>
+            <input type="text" name="username" id="username" class="username">
+          </div>
+          <div>
+            <label>Password</label>
+            <div class="label-background">Password</div>
+            <input type="password" name="password" id="password" class="password">
+          </div>
+        </div>
+        <div id="form-error">
+          <ul id="login-error">
+          </ul>
+        </div>
+        <div id="form-controls">
+          <div>
+            <button type="submit" id="submit-button-login">Login</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<%- include('footer.ejs') %>

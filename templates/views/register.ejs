@@ -1,0 +1,45 @@
+<%- include('header.ejs') %>
+<div id="main-form-body">
+  <div id="form-body">
+    <div>
+      <h1 id="form-name">Sign up</h1>
+      <h2 id="form-description">Create a Localhost Account</h2>
+    </div>
+    <div id="form-main">
+      <form method="post" action="register">
+        <div id="login-form-inputs">
+          <div>
+            <label>Username</label>
+            <div class="label-background">Username</div>
+            <input type="text" name="username" id="username" class="username">
+          </div>
+          <div>
+            <label>Email address</label>
+            <div class="label-background">Email address</div>
+            <input type="email" name="email" id="email" class="email">
+          </div>
+          <div>
+            <label>Password</label>
+            <div class="label-background">Password</div>
+            <input type="password" name="password" id="password" class="password">
+          </div>
+          <div>
+            <label>Confirm Password</label>
+            <div class="label-background">Confirm Password</div>
+            <input type="password" name="confirm_password" id="confirm_password" class="confirm_password">
+          </div>
+        </div>
+        <div id="form-error">
+          <ul id="register-error">
+          </ul>
+        </div>
+        <div id="form-controls">
+          <div>
+            <button type="submit" id="submit-button-register">Register</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<%- include('footer.ejs') %>

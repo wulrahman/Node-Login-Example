@@ -1,0 +1,29 @@
+<%- include('header.ejs') %>
+<div id="main-content-body">
+    <%- include('navigation.ejs') %>
+    <div id="main-body">
+        <div id ="main-body-main">
+            <div id="main-content-form">
+                <form>
+                    <div id="form-main">
+                        <input type="text" name="url" id="url" class="url"/>
+                    </div>
+                    <div id="form-control">
+                        <button id="content-button" class="fa fa-search"></button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <!-- <h1>Home Page <%= clicks %></h1> -->
+                <div id="loading" class="loading">
+                    <img src="img/loading-dog.gif"></div>
+                </div>
+                <div id="main-content-results">
+                    <ul id="main-content">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('footer.ejs') %>
