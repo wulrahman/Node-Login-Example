@@ -98,6 +98,6 @@ socket_main.on('connection', (client) => {
   });
 });
 
-server.listen(3000, () => {
+server.listen(80, () => {
   console.log("server started on port 3000");
 });
