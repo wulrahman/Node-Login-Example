@@ -25,9 +25,11 @@ const metascraper = require('metascraper')([
   require('@samirrayani/metascraper-shopping')(),
 ])
 
+const cheerio = require('cheerio')
 
 return_data = {
-    meta_data:{}
+    meta_data:{},
+    dom:{}
   }
 
 
@@ -35,6 +37,7 @@ exports.meta_data = async function meta_data(content, callback){
     url = content.url;
     html = content.html;
     return_data.meta_data = await metascraper({ html, url });
+    return_data.dom = await cheerio.load(html)
     callback(return_data);
 }
 
